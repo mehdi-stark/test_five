@@ -126,8 +126,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="Icon.png" />
     <Content Include="js\app.js" />
-    <Content Include="js\controller\addMoments.js" />
-    <Content Include="js\controller\allMoments.js" />
+    <Content Include="js\controller\addMomentsController.js" />
+    <Content Include="js\controller\allMomentsController.js" />
     <Content Include="js\index.js" />
     <Content Include="merges\android\scripts\android2.3-jscompat.js" />
     <Content Include="merges\android\scripts\platformOverrides.js" />

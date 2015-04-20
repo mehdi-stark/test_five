@@ -10,5 +10,5 @@ app.config(function ($routeProvider) {
             templateUrl: 'partials/addMoments.html',
             controller: 'addMomentsController'
         })
-
+        .otherwise({redirection})
 });
