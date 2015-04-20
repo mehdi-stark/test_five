@@ -1,3 +1,3 @@
-﻿app.controller('addMomentController', function ($scope) {
-
+﻿app.controller('addMomentsController', function ($scope) {
+    //
 });

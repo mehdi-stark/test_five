@@ -112,7 +112,43 @@
     <VisualStudioVersion>12.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="bin\iOS\Debug\" />
+    <Folder Include="bin\Windows Phone 8\Debug\" />
     <Folder Include="images\" />
+    <Content Include="bin\Android\Debug\AndroidManifest.cordova.xml" />
+    <Content Include="bin\Android\Debug\AndroidManifest.xml.d" />
+    <Content Include="bin\Android\Debug\build.prop" />
+    <Content Include="bin\Android\Debug\classes.dex" />
+    <Content Include="bin\Android\Debug\classes.dex.d" />
+    <Content Include="bin\Android\Debug\classes\io\cordova\TestFive\BuildConfig.class" />
+    <Content Include="bin\Android\Debug\classes\io\cordova\TestFive\CordovaApp.class" />
+    <Content Include="bin\Android\Debug\classes\io\cordova\TestFive\R%24attr.class" />
+    <Content Include="bin\Android\Debug\classes\io\cordova\TestFive\R%24drawable.class" />
+    <Content Include="bin\Android\Debug\classes\io\cordova\TestFive\R%24string.class" />
+    <Content Include="bin\Android\Debug\classes\io\cordova\TestFive\R%24xml.class" />
+    <Content Include="bin\Android\Debug\classes\io\cordova\TestFive\R.class" />
+    <Content Include="bin\Android\Debug\CordovaApp-debug-unaligned.apk" />
+    <Content Include="bin\Android\Debug\CordovaApp-debug-unaligned.apk.d" />
+    <Content Include="bin\Android\Debug\CordovaApp-debug.apk" />
+    <Content Include="bin\Android\Debug\CordovaApp.ap_" />
+    <Content Include="bin\Android\Debug\CordovaApp.ap_.d" />
+    <Content Include="bin\Android\Debug\dexedLibs\classes-031fc2d4f1f603a77a0c3e3c071ec7d5.jar" />
+    <Content Include="bin\Android\Debug\dexedLibs\classes-912bc0aeea8fb74bf4736a145ccaee5b.jar" />
+    <Content Include="bin\Android\Debug\proguard.txt" />
+    <Content Include="bin\Android\Debug\R.txt" />
+    <Content Include="bin\Android\Debug\res\drawable-hdpi\icon.png" />
+    <Content Include="bin\Android\Debug\res\drawable-land-hdpi\screen.png" />
+    <Content Include="bin\Android\Debug\res\drawable-land-ldpi\screen.png" />
+    <Content Include="bin\Android\Debug\res\drawable-land-mdpi\screen.png" />
+    <Content Include="bin\Android\Debug\res\drawable-land-xhdpi\screen.png" />
+    <Content Include="bin\Android\Debug\res\drawable-ldpi\icon.png" />
+    <Content Include="bin\Android\Debug\res\drawable-mdpi\icon.png" />
+    <Content Include="bin\Android\Debug\res\drawable-port-hdpi\screen.png" />
+    <Content Include="bin\Android\Debug\res\drawable-port-ldpi\screen.png" />
+    <Content Include="bin\Android\Debug\res\drawable-port-mdpi\screen.png" />
+    <Content Include="bin\Android\Debug\res\drawable-port-xhdpi\screen.png" />
+    <Content Include="bin\Android\Debug\res\drawable-xhdpi\icon.png" />
+    <Content Include="bin\Android\Debug\res\drawable\icon.png" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -150,6 +186,8 @@
     </Content>
     <Content Include="index.html" />
     <Content Include="packages.config" />
+    <Content Include="partials\addMoments.html" />
+    <Content Include="partials\allMoments.html" />
     <Content Include="scripts\angular-mocks.js" />
     <Content Include="scripts\angular-route.js" />
     <Content Include="scripts\angular-route.min.js" />

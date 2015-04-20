@@ -1,3 +1,3 @@
-﻿app.controller('allMomentController', function ($scope) {
+﻿app.controller('allMomentsController', function ($scope) {
     $scope.text = 'Hello MVA';
 });

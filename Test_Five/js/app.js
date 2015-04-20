@@ -4,11 +4,11 @@ app.config(function ($routeProvider) {
     $routeProvider
         .when('/', {
             templateUrl: 'partials/allMoments.html',
-            controller : 'allMomentsController'
+            controller: 'allMomentsController'
         })
-        .when('/', {
+        .when('/addmoment', {
             templateUrl: 'partials/addMoments.html',
             controller: 'addMomentsController'
         })
-        .otherwise({redirection})
+        .otherwise({ redirectTo: '/'});
 });
