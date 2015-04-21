@@ -1,3 +1,21 @@
 ﻿body {
     padding-top: 70px;
+    font-family: 'Segoe UI Light';
+    font-family: 20px;
+    color: #00ff90;
+}
+
+li{
+    margin-right: 15px;
+    margin-left: 15px;
+    color: red;
+}
+
+.mbotop{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-primary:visited, .btn-warning:visited, .btn-danger:visited, .btn-success:visited, .btn-info:visited, .btn-inverse:visited {
+    color: #ffffff
 }
