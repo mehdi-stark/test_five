@@ -1,4 +1,5 @@
-﻿var app = angular.module('myMoments', ['ngRoute']);
+﻿
+var app = angular.module('myMoments', ['ngRoute']);
 
 app.config(function ($routeProvider) {
 
