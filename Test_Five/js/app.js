@@ -7,7 +7,7 @@ app.config(function ($routeProvider) {
             templateUrl: 'partials/allMoments.html',
             controller: 'allMomentsController'
         })
-        .when('/addmoment', {
+        .when('/addmoments', {
             templateUrl: 'partials/addMoments.html',
             controller: 'addMomentsController'
         })
