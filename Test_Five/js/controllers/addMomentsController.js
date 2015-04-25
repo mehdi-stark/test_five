@@ -17,7 +17,7 @@
     };
 
     var fsReceived = function (fileSystem) {
-        fileSystem.root.getFile('moments.json', { create: true, exclusive, false}, feReceived, errorHandler);
+        fileSystem.root.getFile('moments.json', { create: true, exclusive: false}, feReceived, errorHandler);
     };
 
     var feReceived = function (fileEntry) {
