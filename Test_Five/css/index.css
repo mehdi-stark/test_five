@@ -1,7 +1,7 @@
 ﻿body {
     padding-top: 70px;
     font-family: 'Segoe UI Light';
-    font-family: 20px;
+    font-size: 20px;
     color: #00ff90;
 }
 
@@ -9,6 +9,10 @@ li{
     margin-right: 15px;
     margin-left: 15px;
     color: red;
+}
+
+p, label, a {
+    font-size: 20px;
 }
 
 .mbotop{

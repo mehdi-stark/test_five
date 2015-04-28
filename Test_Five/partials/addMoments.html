@@ -1,12 +1,12 @@
 ﻿<form role="form" class="col-xs-12">
     <div class="form-group">
-        <label>Moment title</label>
+        <label for="title">Moment title</label>
         <input type="text" ng-model="moment.title" id="title" class="form-control" placeholder="Saisissez le titre" />
     </div>
     <div class="form-group">
-        <label>Ajoutez une image</label>
+        <label for="image">Ajoutez une image</label>
         <button id="image" class="form-control btn btn-default">Ajouter..</button>
         <img/>
     </div>
-    <button class="btn btn-default">Créer</button>
+    <button ng-click="addMoment()" class="btn btn-default">Créer</button>
 </form>

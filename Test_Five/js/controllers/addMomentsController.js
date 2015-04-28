@@ -1,7 +1,7 @@
-﻿app.controller('addMomentsController', function ($scope) {
+﻿app.controller('addMomentsController', function ($scope, $location) {
    
     $scope.moment = {
-        image: '',
+        image: 'images/Hydrangeas.jpg',
         title: ''
     };
 
@@ -14,6 +14,8 @@
 
     $scope.save = function () {
         requestFileSystem(window.PERSISTENT, 0, fsReceived, errorHandler);
+        //Modifie la localisation de l'url
+        $location.path('/');
     };
 
     var fsReceived = function (fileSystem) {
@@ -30,6 +32,6 @@
     };
 
     var errorHandler = function (error) {
-        print ("ERREUR ADDMOMENT CONTROLLER\n");
+
     };
 });

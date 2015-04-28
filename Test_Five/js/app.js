@@ -1,5 +1,5 @@
 ﻿
-var app = angular.module('myMoments', ['ngRoute']);
+var app = angular.module('myMoments', ['ngRoute'], ['ngCordova']);
 
 app.config(function ($routeProvider) {
 

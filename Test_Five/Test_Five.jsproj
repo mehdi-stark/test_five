@@ -112,7 +112,6 @@
     <VisualStudioVersion>12.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="images\" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -125,6 +124,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="Icon.png" />
+    <Content Include="images\Hydrangeas.jpg" />
     <Content Include="js\app.js" />
     <Content Include="js\controllers\addMomentsController.js" />
     <Content Include="js\controllers\allMomentsController.js" />
@@ -272,6 +272,10 @@
     <Content Include="scripts\jquery-2.1.3.js" />
     <Content Include="scripts\jquery-2.1.3.min.js" />
     <Content Include="scripts\jquery-2.1.3.min.map" />
+    <Content Include="scripts\ng-cordova-mocks.js" />
+    <Content Include="scripts\ng-cordova-mocks.min.js" />
+    <Content Include="scripts\ng-cordova.js" />
+    <Content Include="scripts\ng-cordova.min.js" />
     <Content Include="scripts\npm.js" />
     <Content Include="scripts\platformOverrides.js" />
     <Content Include="css\index.css" />

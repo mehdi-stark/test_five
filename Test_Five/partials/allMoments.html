@@ -1,1 +1,6 @@
-﻿<p>{{ text }}</p>
+﻿<div ng-repeat="moment in moments">
+    <div>
+        <img src="{{ moment.image }}" />
+        <p>{{ moment.title }}</p>
+    </div>
+</div>

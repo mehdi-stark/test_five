@@ -1,4 +1,13 @@
-﻿app.controller('allMomentsController', function ($scope) {
+﻿app.controller('allMomentsController', function ($scope, rootScope, $cordovaFile) {
 
-    $scope.text = 'Hello MVA';
+    $cordovaFile.readFile('moments.json').then(
+        function (result) {
+            if (typeof result == 'string') {
+                $rootScope.moments = JSON.parse(result);
+            }
+            else {
+                $rootScope.moments = result;
+            }
+        });
+    
 });
